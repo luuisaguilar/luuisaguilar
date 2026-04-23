@@ -2,9 +2,12 @@
 
 # Luis Angel Aguilar Aguila Andrade
 
-### Full-Stack Developer · Systems Builder · SaaS, Automation & IoT
+### Full-Stack Developer · Systems Architect · SaaS, Automation & IoT
 
-Building multi-tenant platforms, operational systems, and connected products for real-world businesses in Mexico.
+Building multi-tenant platforms, operational systems, and connected products  
+for real-world businesses in Mexico.
+
+*ISO 9001:2015 & ISO 21001:2018 Certified · PMI Project Manager Candidate*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-luisaguilaraguila.com-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://luisaguilaraguila.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Luis%20Aguilar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-aguilar-aguila-069006188)
@@ -17,72 +20,132 @@ Building multi-tenant platforms, operational systems, and connected products for
 
 ## About Me
 
-I design and build software systems that improve operations, visibility, and scalability for businesses. My work focuses on multi-tenant SaaS platforms, internal tools, automation, and IoT products with strong attention to architecture, security, and real operational use.
+I design and build software systems that solve operational problems for real businesses — not demos.
+My work spans multi-tenant SaaS platforms, automation pipelines, IoT, and self-hosted infrastructure,
+with a strong focus on architecture discipline, security, and production reliability.
 
-I’m especially interested in products that connect **business logic + software + infrastructure** to solve concrete problems in education, field operations, and service businesses.
+- 🏗️ **3+ SaaS products** in active production serving clients in education, logistics, and agriculture
+- 📋 **ISO-certified** (9001:2015, 21001:2018) — I bridge business process with technical implementation
+- 🤖 **Automation-first** approach: n8n, AI agents, CI/CD on self-hosted Proxmox infrastructure
+- 🌎 Deep experience building for **Latin American markets** — MercadoLibre, SAT, CENNI, local ops
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### LEC Platform
-**Multi-tenant SaaS for English exam operations in Mexico**
+### 🎓 LEC Platform
+**Multi-tenant SaaS · English exam operations across Mexican schools**
 
-A platform designed to manage exam workflows, operational visibility, role-based access, and data integrity across schools and locations.
+Manages the full lifecycle of Cambridge & CENNI exam administration — candidates, payments,
+scheduling, and multi-role coordination across distributed school networks.
 
-**Core focus**
-- Multi-tenant architecture with role-based access
-- Audit logging across critical flows
-- Secure data operations with RLS
+**Architecture highlights**
+- Multi-tenant with RLS per organization and role-based access control
+- Audit logging across all critical flows
 - CSV pipelines with upsert/conflict handling
-- Operational tooling for distributed teams
+- Playwright E2E test suite
 
-**Stack**
-`Next.js` `TypeScript` `Supabase` `PostgreSQL` `RLS`
+**Stack:** `Next.js` `TypeScript` `Supabase` `PostgreSQL` `RLS` `Playwright`
 
 ---
 
-### iAgua
-**Smart irrigation system for small-scale agriculture**
+### 📄 CVOS — CV Operating System
+**AI-powered resume optimization · B2C SaaS**
 
-An affordable precision agriculture solution designed for northwestern Mexico, combining hardware, connectivity, and software for real-time irrigation monitoring and control.
+Tailors CVs to specific job descriptions using a multi-model AI pipeline,
+improving ATS match scores with structured analysis and export.
 
-**Core focus**
-- ESP32 + cellular architecture
-- MQTT-based communication
-- Real-time persistence and telemetry
+**Architecture highlights**
+- Vercel AI SDK with Zod validation and structured output
+- ATS scoring engine with job targeting
+- Resume persistence across sessions
+- shadcn/ui component system
+
+**Stack:** `Next.js` `TypeScript` `Supabase` `Vercel AI SDK` `shadcn/ui`
+
+---
+
+### 🤖 CopartBot
+**Auction intelligence & monitoring automation**
+
+Real-time Copart vehicle auction monitor with custom scoring, anti-bot evasion,
+and Telegram alerts for high-opportunity lots.
+
+**Architecture highlights**
+- Playwright-based scraper with proxy rotation
+- Imperva bypass and session management
+- Custom opportunity scoring algorithm
+- Async pipeline with Telegram delivery
+
+**Stack:** `TypeScript` `Playwright` `Python` `Proxy Rotation` `Telegram API`
+
+---
+
+### 💧 iAgua — IoT Water Management
+**ESP32 + cellular · Remote field infrastructure**
+
+Affordable water infrastructure monitoring and control system for agricultural
+and rural deployments in northwestern Mexico.
+
+**Architecture highlights**
+- ESP32 + SIM7600 4G/LTE hardware stack
+- MQTT-based real-time telemetry
 - PWA dashboard for remote visibility
-- Field-ready system design for practical deployment
+- Designed for field reliability, not lab conditions
 
-**Stack**
-`ESP32` `SIM7600 4G` `MQTT` `Supabase` `PWA`
-
----
-
-## What I Work On
-
-- Multi-tenant SaaS products
-- Internal systems for operations and coordination
-- Automation workflows and integrations
-- IoT products connected to cloud dashboards
-- Secure backend architecture and access control
-- Data pipelines for operational reliability
+**Stack:** `ESP32` `SIM7600 4G` `MQTT` `Supabase` `PWA`
 
 ---
 
-## Tech Focus
+## 🛠 Tech Stack
 
-**Frontend**  
-`Next.js` `React` `TypeScript` `Tailwind CSS`
+**Frontend**
 
-**Backend & Data**  
-`Supabase` `PostgreSQL` `Node.js`
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-**Infrastructure**  
-`Vercel` `Caddy` `Sentry`
+**Backend & Data**
 
-**IoT & Automation**  
-`ESP32` `MQTT` `n8n`
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**Infrastructure**
+
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**AI & Automation**
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=luuisaguilar&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="155"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luuisaguilar&layout=compact&theme=github_dark&hide_border=true&count_private=true" height="155"/>
+</p>
+
+---
+
+## 🏗️ Currently Building
+
+| Project | Status | Focus |
+|---------|--------|-------|
+| **LEC Platform** | 🟢 Active | Cambridge exam batch processing |
+| **CVOS** | 🟡 In progress | AI persistence + E2E test suite |
+| **CopartBot** | 🟢 Active | Bid automation pipeline |
+| **iAgua** | 🔵 MVP | Cellular dashboard |
+| **Homelab** | 🟢 Active | Proxmox + n8n + Cloudflare Tunnel |
 
 ---
 
@@ -92,3 +155,18 @@ My approach combines product thinking, architecture discipline, and fast executi
 
 ```text
 Problem → System Design → Build → Validate → Improve
+```
+
+I default to boring, proven technology choices and invest complexity only where it creates
+real business leverage. Self-hosted where it makes sense. Cloud where it doesn't.
+
+---
+
+<div align="center">
+
+Based in **Hermosillo, Sonora, México** · Available for remote work & consulting
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit-000000?style=for-the-badge)](https://luisaguilaraguila.com)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/luis-aguilar-aguila-069006188)
+
+</div>
